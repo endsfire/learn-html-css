@@ -1,5 +1,2 @@
 # learn-html-css
-Learning HTML and CSS
-jQuery
-Backbone.js
-Underscore.js
+Learning HTML5 and CSS3
