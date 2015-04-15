@@ -1,0 +1,27 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#header_container{
+	width: 80%;
+	max-width: 1280px;
+	margin: 0 auto 0 auto;
+	border-bottom: .1em solid #EEE;
+}
+#header_container h1{
+	display: inline-block;
+}
+#header_menu{
+	float: right;
+	height: 3em;
+}
+.menu_primary{
+	display: inline-block;
+}
+.menu_primary a{
+	text-align: center;
+}
+.menu_secondary{
+	list-style-type: none;
+	display: none;
+}
