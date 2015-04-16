@@ -26,10 +26,10 @@
 	padding-right: 0em;
 }
 .col-1-2{
-	width: 49%;
+	width: 50%;
 }
 .col-1-8{
-	width: 12%;
+	width: 12.5%;
 	text-align: center;	
 }
 .module{
@@ -39,4 +39,32 @@
 }
 .module a{
 	text-decoration: none;
+}
+#content_container{
+	width: 100%;
+}
+#background_container{
+	width: 80%;
+	margin: 0 auto 0 auto;
+	background: #000000;
+	height: 50em;
+}
+#text_container{
+	width: 50%;
+	float: right;
+	height: 50em;
+	background: #00FF00;
+	text-align: right;
+}
+#text_container h1{
+	margin-top: 2em;
+	font-size: 3em;
+	text-align: center;
+}
+#text_container ul{
+	list-style-type: none;
+}
+#text_container li{
+	margin: 2em;
+	font-size: 2em;
 }
