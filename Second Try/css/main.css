@@ -75,12 +75,14 @@
 #background_container{
 	width: 80%;
 	margin: 0 auto 0 auto;
-	height: 50em;
+	height: 46em;
+	background: url(booth.jpg) no-repeat center;
+	background-size: cover;
 }
 #text_container{
 	width: 50%;
 	float: right;
-	height: 50em;
+	height: 46em;
 	text-align: right;
 }
 #text_container h1{
@@ -101,7 +103,7 @@
 	width: 80%;
 	max-width: 1280px;
 	margin: 0 auto 0 auto;
-	height: 22em;
+	height: 16em;
 }
 #details_container:after{
 	content = "";
@@ -109,7 +111,6 @@
 	clear: both;
 }
 .module_detail{
-	padding: 2em;
 	background: #257E78;
 	margin: 1em;
 	height: 15em;
@@ -117,18 +118,39 @@
 }
 .module_detail h3{
 	margin-bottom: 3em;
+	/* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.3);
 }
 .module_detail p{
 	visibility: hidden;
 	opacity: 0;
 	-webkit-transition: visibility 0s linear 1s,opacity 1s ease;
 	transition: visibility 0s linear 1s,opacity 1s ease;
+	margin: 1em;
 }
 .module_detail:hover p{
 	visibility:visible;
 	opacity: 1;
 	-webkit-transition-delay: 0s;
 	transition-delay: 0s;
+	/* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#sub_title_one{
+	background: url(dock.jpg) no-repeat center;
+	background-size: cover;
+}
+#sub_title_two{
+	background: url(golden.jpg) no-repeat center;
+	background-size: cover;
+}
+#sub_title_three{
+	background: url(hill.jpg) no-repeat center;
+	background-size: cover;
 }
 #footer_container{
 	width: 100%;
